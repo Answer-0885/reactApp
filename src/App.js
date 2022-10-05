@@ -1,8 +1,11 @@
-
+import CostItem from "./components/CostItem";
 
 function App() {
   return (
-    <h1>Начнём изучение REACT</h1>
+    <div>
+      <h1>Начнём изучение REACT</h1>
+      <CostItem></CostItem>
+    </div>
   );
 }
 

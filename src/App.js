@@ -4,7 +4,7 @@ function App() {
 
   const costs = [
     {
-      date: new Date(2022, 4, 5),
+      date: new Date(2022, 4, 1),
       description: "Холодильник",
       amount: "999.99"
     },
@@ -14,7 +14,7 @@ function App() {
       amount: "699.99"
     },
     {
-      date: new Date(2022, 9, 5),
+      date: new Date(2022, 9, 7),
       description: "Зимние ботинки",
       amount: "299.99"
     }
@@ -26,15 +26,15 @@ function App() {
       <CostItem date={costs[0].date}
                 description={costs[0].description}
                 amount={costs[0].amount}
-                ></CostItem>
+                />
       <CostItem date={costs[1].date}
                 description={costs[1].description}
                 amount={costs[1].amount}
-                ></CostItem>
+                />
       <CostItem date={costs[2].date}
                 description={costs[2].description}
                 amount={costs[2].amount}
-                ></CostItem>
+                />
     </div>
   );
 }

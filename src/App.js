@@ -1,3 +1,4 @@
+// import React from "react";
 import Costs from "./components/Costs";
 
 function App() {
@@ -18,7 +19,13 @@ function App() {
       description: "Зимние ботинки",
       amount: "299.99"
     }
-  ]
+  ];
+// return React.createElement(
+//   "div",
+//   {},
+//   React.createElement("h1",{},"Начнём изучение Retertretact!"),
+//   React.createElement(Costs, {costs: costs})
+// );
 
   return (
     <div>

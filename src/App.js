@@ -1,7 +1,7 @@
 // import React from "react";
-import Costs from "./components/Costs";
+import Costs from "./components/Costs/Costs";
 
-function App() {
+const App = () => {
 
   const costs = [
     {
@@ -23,7 +23,7 @@ function App() {
 // return React.createElement(
 //   "div",
 //   {},
-//   React.createElement("h1",{},"Начнём изучение Retertretact!"),
+//   React.createElement("h1",{},"Начнём изучение React!"),
 //   React.createElement(Costs, {costs: costs})
 // );
 

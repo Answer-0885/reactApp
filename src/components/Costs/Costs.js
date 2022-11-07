@@ -17,7 +17,10 @@ const Costs = (props) => {
         <Card className="costs">
         < CostsFilter year={selectedYear}
         onChangeYear={yearChangeHandler}/>
-        {props.costs.map(cost => (<CostItem date={cost.date}
+        {props.costs.map(cost => (
+        <CostItem
+        key={cost.id} // делает уникальным каждый элемент CostItem, что помогает определять Реакту. Нужно всегда добавлят когда есть какой-то список.
+        date={cost.date}
             description={cost.description}
             amount={cost.amount}/>))}
         </Card>

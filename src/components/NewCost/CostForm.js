@@ -59,6 +59,7 @@ const CostForm = (props) => {
     }
 
     return(
+
          <form onSubmit={submitHandler}>
             <div className="new-cost__controls">
 
@@ -80,8 +81,12 @@ const CostForm = (props) => {
                 <div className="new-cost__actions">
                     <button type="submit">Добавить расход</button>
                 </div>
+                <div className="new-cost__actions">
+                    <button type="buton" onClick={props.onCancel}>Отмена</button>
+                </div>
             </div>
           </form>
+        
     )
 }
 export default CostForm;

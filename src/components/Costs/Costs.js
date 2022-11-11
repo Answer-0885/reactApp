@@ -3,7 +3,7 @@ import Card from "../UI/Card";
 import CostsFilter from "./CostsFilter";
 import React, { useState } from "react"
 import CostList from "./CostList";
-import CostDiagram from "./CostDiagram";
+import CostDiagram from "../Diagram/CostDiagram";
 
 const Costs = (props) => {
 

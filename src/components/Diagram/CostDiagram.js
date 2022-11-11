@@ -1,4 +1,4 @@
-import Diagram from "../Diagram/Diagram";
+import Diagram from "./Diagram";
 
 const CostDiagram = (props) => {
 

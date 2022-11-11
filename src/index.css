@@ -7,4 +7,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.main{
+  text-align: center;
+}
+h1{
+  border-radius: 10px;
+  color:#2a5b84;
+  background-color: #dbd684;
+  display: inline-block;
+}

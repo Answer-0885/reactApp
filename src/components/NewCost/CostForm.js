@@ -59,7 +59,6 @@ const CostForm = (props) => {
     }
 
     return(
-
          <form onSubmit={submitHandler}>
             <div className="new-cost__controls">
 

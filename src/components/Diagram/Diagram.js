@@ -1,5 +1,6 @@
-import DiagramBar from "./DiagramBar"
-import "./Diagram.css"
+import DiagramBar from "./DiagramBar";
+import "./Diagram.css";
+
 const Diagram = (props) => {
     return <div className="diagram">
         {props.dataSets.map(dataSet => <DiagramBar
@@ -9,4 +10,4 @@ const Diagram = (props) => {
         />)}
     </div>
 }
-export default Diagram
+export default Diagram;

@@ -1,4 +1,3 @@
-Приложение по учёту расходов на Реакте. После клонирования проекта необходимо набрать команду npm install для установки папки node_modules. Затем для запуска приложения набираем команду npm start.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

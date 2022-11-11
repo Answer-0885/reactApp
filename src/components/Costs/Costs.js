@@ -3,6 +3,7 @@ import Card from "../UI/Card";
 import CostsFilter from "./CostsFilter";
 import React, { useState } from "react"
 import CostList from "./CostList";
+import CostDiagram from "./CostDiagram";
 
 const Costs = (props) => {
 
@@ -25,6 +26,9 @@ const Costs = (props) => {
         <Card className="costs">
         < CostsFilter year={selectedYear}
         onChangeYear={yearChangeHandler}/>
+
+        <CostDiagram costs={filteredCosts}/>
+
         <CostList costs={filteredCosts}/>
         </Card>
     </div>

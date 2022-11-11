@@ -40,8 +40,7 @@ const App = () => {
   }
 
   return (
-    <div className="main">
-      <h1>Приложение по учёту расходов</h1>
+    <div>
       <NewCost onAddCost={addCostHandler}/>
         <Costs costs={costs} />  
     </div>

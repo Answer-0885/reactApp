@@ -1,4 +1,4 @@
-Приложение по учёту расходов на Реакте. Чтобы склонировать проект себе на компьютер набираем в терминале, Git Bash например, команду git clone и адрес репозитория. После клонирования проекта необходимо набрать команду npm install для установки папки node_modules. Затем для запуска приложения набираем команду npm start.
+Приложение по учёту расходов на Реакте. Чтобы склонировать проект себе на компьютер набираем в терминале, Git Bash например, команду git clone и адрес репозитория (git clone https://github.com/Answer-0885/reactApp.git ). После клонирования проекта необходимо набрать команду npm install для установки папки node_modules. Затем для запуска приложения набираем команду npm start.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
